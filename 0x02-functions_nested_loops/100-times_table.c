@@ -8,23 +8,21 @@
 
 void print_times_table(int n)
 {
-        int num, mult, prod;
+	int num, mult, prod;
 	if (n <= 15 && n >= 0)
 	{
-        	for (num = 0; num <= 9; num++)
-        	{
-                	_putchar(48);
-                	for (mult = 1; mult <= n; mult++)
-                	{
-                        	_putchar(',');
-                        	_putchar(' ');
-
+		for (num = 0; num <= n; num++)
+		{
+			_putchar(48);
+			for (mult = 1; mult <= n; mult++)
+			{
+				_putchar(',');
+				_putchar(' ');
                         	prod = num * mult;
-
-                        	/*
+				/*
                          	* put space if product is a single number
-                         	* place the first digit if its two numbers
-                         	*/
+				* place the first digit if its two numbers
+				*/
                         	if (prod <= 9)
                                 	_putchar(' ');
 				if (prod <= 99)

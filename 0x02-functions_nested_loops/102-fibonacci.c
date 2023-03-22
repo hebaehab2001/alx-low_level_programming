@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: prints the first 50 Fibonacci numbers
- * 		starting with 1 and 2 followed by anew line
+ *		starting with 1 and 2 followed by anew line
  *
  * Return: always 0 ( success)
  */
@@ -18,7 +18,6 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
-
 		fib1 = fib2;
 		fib2 = sum;
 
