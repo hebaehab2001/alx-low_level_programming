@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that print with pust function 
+ * Description: A C program that print with pust function
  *
  * Return: Always 0 (Success)
 */
