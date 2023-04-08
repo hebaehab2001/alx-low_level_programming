@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.c"
 
 /**
  * _atoi - converts a string input to an integer function
